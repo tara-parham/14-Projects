@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  align-content: center;
+  justify-content: center;
+  display: grid;
+  place-items: center;
+  width: 100dvw;
+  height: 100dvh;
+  margin: 0;
+  min-width: 16.688rem;
+}
+
+main {
+  text-align: center;
+  position: relative;
+}
+
+.tooltip {
+  position: inherit;
+  display: inline-block;
+  border: 0.1rem solid black;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  background-color: rgb(240, 240, 240);
+}
+
+.tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  border: 0.1rem solid rgb(178, 178, 178);
+  border-radius: 0.2rem;
+  background-color: rgb(211, 211, 211);
+  width: 12rem;
+  padding: 0.3rem 0.2rem;
+  top: 140%;
+  left: 20%;
+}
+
+.tooltip-text:after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5rem;
+  border-style: solid;
+  border-width: 0.5rem;
+  border-color: transparent transparent rgb(211, 211, 211) transparent;
+  left: 5rem;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
+@media only screen and (max-width: 353px) {
+  .tooltip-text {
+    left: -20%;
+    margin-right: 6rem;
+  }
+
+  .tooltip-text:after {
+    margin-left: 0.3rem;
+  }
+}
