@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+body {
+  display: grid;
+  width: 100dvw;
+  height: 100dvh;
+  place-content: center;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  min-width: 21.25rem;
+}
+
+.main {
+  width: 20rem;
+  height: 20rem;
+  perspective: 32.5rem;
+}
+
+.inner {
+  position: relative;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  height: 100%;
+}
+
+.main:hover .inner {
+  transform: rotateY(180deg);
+}
+
+.front {
+  background-color: rgb(187, 187, 187);
+}
+
+.front img {
+  width: 20rem;
+}
+
+.front,
+.back {
+  position: absolute;
+  backface-visibility: hidden;
+  height: 100%;
+}
+
+.back {
+  transform: rotateY(180deg);
+  background-color: rgb(144, 108, 170);
+  color: white;
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 5px 10px;
+  font-weight: bold;
+}
