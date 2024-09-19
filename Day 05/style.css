@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  display: grid;
+  width: 100dvw;
+  height: 100dvh;
+  margin: 0;
+  min-width: 52.063rem;
+}
+
+main {
+  margin: 10rem auto;
+}
+
+header {
+  display: inline;
+  text-align: center;
+}
+
+header h1 {
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+
+header span {
+  display: block;
+  color: rgb(75, 85, 99);
+}
+
+main {
+  width: 65rem;
+}
+
+.card {
+  border: 0.1rem solid white;
+  margin-top: 2rem;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
+    0 0.37rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+}
+
+.left {
+  padding: 2rem 5rem 0 3rem;
+}
+
+.line {
+  position: relative;
+  color: rgb(79, 70, 229);
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+hr {
+  position: relative;
+  top: -1.5rem;
+  left: 5rem;
+  width: 26rem;
+}
+
+ul {
+  columns: 2;
+}
+
+ul li {
+  list-style: url(assets/check-icon.svg);
+  font-size: 2rem;
+}
+
+ul li p {
+  font-size: 1rem;
+}
+
+.list {
+  margin-top: -0.01rem;
+}
+
+.right {
+  background-color: rgb(243, 244, 246);
+  text-align: center;
+  padding: 0 0.1rem;
+}
+
+.right p {
+  margin-top: 3rem;
+  font-weight: bold;
+}
+
+.right h1 {
+  display: inline;
+}
+
+.usd {
+  position: relative;
+  top: -0.5rem;
+  left: 0.4rem;
+}
+
+.right a {
+  display: block;
+  color: rgb(107, 114, 143);
+  margin: 0.5rem 0 1.2rem 0;
+  padding: 0 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: rgb(31, 41, 55);
+  color: white;
+  padding: 0.5rem 4.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.right h4 {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 1070px) {
+  main {
+    width: 50rem;
+  }
+  hr {
+    width: 16rem;
+  }
+
+  .btn {
+    padding: 0.5rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main {
+    margin-top: 5rem;
+    font-size: 150%;
+  }
+  .card {
+    display: inline-block;
+  }
+  hr {
+    top: 0;
+    left: 0;
+    width: 30rem;
+    margin-left: 0.5rem;
+  }
+  ul {
+    columns: 1;
+    margin: 2rem 0 0 0;
+  }
+  ul li p {
+    font-size: 65%;
+    padding-left: 3rem;
+  }
+  ul li {
+    font-size: 190%;
+  }
+  .right {
+    margin-top: 0;
+    padding-top: 0.001rem;
+  }
+  .btn {
+    width: 85%;
+    font-size: 90%;
+  }
+}
