@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Inter", sans-serif;
   display: grid;
   width: 100dvw;
-  height: 100dvh;
   margin: 0;
-  min-width: 52.063rem;
 }
 
 main {
@@ -15,6 +16,7 @@ main {
 header {
   display: inline;
   text-align: center;
+  margin: 2rem 1rem 0 1rem;
 }
 
 header h1 {
@@ -27,13 +29,9 @@ header span {
   color: rgb(75, 85, 99);
 }
 
-main {
-  width: 65rem;
-}
-
 .card {
   border: 0.1rem solid white;
-  margin-top: 2rem;
+  margin: 2rem 1rem 0 1rem;
   box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
     0 0.37rem 1.25rem 0 rgba(0, 0, 0, 0.19);
   display: flex;
@@ -51,10 +49,8 @@ main {
 }
 
 hr {
-  position: relative;
-  top: -1.5rem;
-  left: 5rem;
-  width: 26rem;
+  margin: -1.5rem -0 0 10rem;
+  width: 75%;
 }
 
 ul {
@@ -64,6 +60,7 @@ ul {
 ul li {
   list-style: url(assets/check-icon.svg);
   font-size: 2rem;
+  margin-left: 1rem;
 }
 
 ul li p {
@@ -103,10 +100,11 @@ ul li p {
 }
 
 .btn {
-  display: inline-block;
+  display: block;
   background-color: rgb(31, 41, 55);
   color: white;
-  padding: 0.5rem 4.5rem;
+  padding: 0.5rem 0;
+  margin: 0 0.5rem;
   border-radius: 0.5rem;
   cursor: pointer;
 }
@@ -116,50 +114,43 @@ ul li p {
   margin-top: 0.5rem;
 }
 
-@media only screen and (max-width: 1070px) {
-  main {
-    width: 50rem;
-  }
+@media only screen and (max-width: 665px) {
   hr {
-    width: 16rem;
-  }
-
-  .btn {
-    padding: 0.5rem 3rem;
+    width: 60%;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   main {
-    margin-top: 5rem;
-    font-size: 150%;
+    font-size: 120%;
   }
+
   .card {
     display: inline-block;
   }
+
   hr {
-    top: 0;
-    left: 0;
+    margin: 1.5rem 0 0 0em;
     width: 30rem;
-    margin-left: 0.5rem;
   }
+
   ul {
     columns: 1;
     margin: 2rem 0 0 0;
   }
+
   ul li p {
     font-size: 65%;
     padding-left: 3rem;
   }
-  ul li {
-    font-size: 190%;
-  }
+
   .right {
     margin-top: 0;
     padding-top: 0.001rem;
   }
+
   .btn {
-    width: 85%;
+    width: 97%;
     font-size: 90%;
   }
 }
