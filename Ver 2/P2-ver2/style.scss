@@ -1,0 +1,15 @@
+$n-margin: -0.75rem;
+$width-3: 3rem;
+$color: rgb(244, 244, 245);
+$min-width: 27rem;
+
+body {
+  background-color: $color;
+  min-width: $min-width;
+}
+.left img {
+  width: $width-3;
+}
+.img2 {
+  margin-left: $n-margin;
+}
