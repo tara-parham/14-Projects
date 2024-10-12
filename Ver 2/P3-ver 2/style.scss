@@ -1,0 +1,13 @@
+$min-width: 23.125rem;
+$width: 2rem;
+$n-margin: -0.3rem;
+
+body {
+  min-width: $min-width;
+}
+img {
+  width: $width;
+}
+.navbar-brand span {
+  margin-left: $n-margin;
+}
