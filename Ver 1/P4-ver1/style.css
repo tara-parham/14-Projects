@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;600;&display=swap");
+body {
+  background-color: rgb(246, 246, 246);
+  font-family: "Inter", sans-serif;
+  display: grid;
+  place-content: center;
+  width: 100dvw;
+  height: 100dvh;
+  margin: 0;
+  min-width: 21.375rem;
+}
+
+header h2 {
+  text-align: center;
+}
+
+header span {
+  color: rgb(76, 179, 242);
+}
+
+.form {
+  display: inline-block;
+  border: 0.1rem solid rgb(246, 246, 246);
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 25rem;
+}
+
+input {
+  display: block;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0;
+  width: 100%;
+  border: 0.1rem solid rgb(220, 220, 224);
+  border-radius: 0.4rem;
+}
+
+.extra,
+label {
+  font-size: 0.8rem;
+}
+
+.extra input {
+  width: 1rem;
+  display: inline;
+  position: relative;
+  top: 0.05rem;
+}
+
+.extra a {
+  float: right;
+  position: relative;
+  top: 0.68rem;
+  color: rgb(80, 70, 228);
+}
+
+.btn {
+  background-color: rgb(80, 70, 228);
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.btn i {
+  width: 1rem;
+  float: left;
+  opacity: 20%;
+  padding-left: 0.4rem;
+}
+
+.line {
+  position: relative;
+  text-align: center;
+  color: rgb(113, 113, 122);
+  margin-top: 2rem;
+}
+
+.line:before,
+.line:after {
+  content: "";
+  position: absolute;
+  background: rgb(212, 212, 216);
+  height: 0.01rem;
+  width: 7.5rem;
+  display: block;
+  top: 0.55rem;
+}
+
+.line:before {
+  left: 0.7rem;
+}
+
+.line:after {
+  right: 0.71rem;
+}
+
+.icons i {
+  color: rgb(113, 113, 122);
+  font-weight: bold;
+}
+
+.icons div {
+  display: inline-block;
+  border: 0.1rem solid rgb(220, 220, 224);
+  border-radius: 0.5rem;
+  width: 11.5rem;
+  padding: 0.4rem 0.3rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.footer-title {
+  text-align: center;
+  color: black;
+  font-size: 1rem;
+}
+
+.footer-title span {
+  color: rgb(80, 70, 228);
+  font-weight: bold;
+}
+
+.footer p {
+  color: rgb(113, 113, 122);
+  font-size: 0.9rem;
+}
+@media only screen and (max-width: 424px) {
+  .form {
+    width: 20rem;
+    /* margin-right: 1rem; */
+  }
+  .line:before,
+  .line:after {
+    width: 5rem;
+  }
+
+  .icons div {
+    display: block;
+    width: 96%;
+  }
+}
+
+@media only screen and (max-width: 469px) {
+  main {
+    width: 100%;
+  }
+
+  .form {
+    padding: 2rem 1rem;
+  }
+}
