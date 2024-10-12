@@ -1,0 +1,37 @@
+body {
+  width: 100dvw;
+  height: 100dvh;
+  display: grid;
+  place-content: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-width: 15.625rem;
+}
+
+.div {
+  background-color: rgb(0, 252, 255);
+  width: 15rem;
+  height: 20rem;
+}
+
+.text {
+  visibility: hidden;
+  display: inline-block;
+  margin: 5rem 3rem;
+  color: black;
+}
+
+.div:hover {
+  background-color: rgb(0, 125, 128);
+}
+
+.div:hover .text {
+  visibility: visible;
+}
+
+@media only screen and (max-width: 300px) {
+  .div {
+    width: 14rem;
+  }
+}
