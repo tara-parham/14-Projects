@@ -1,0 +1,43 @@
+body {
+  display: grid;
+  width: 100dvw;
+  height: 100dvh;
+  place-content: center;
+  margin: 0;
+  min-width: 16.188rem;
+}
+.progress-bar {
+  width: 45rem;
+  height: 2.5rem;
+  border: 1px solid rgb(8, 8, 8);
+}
+
+.progress {
+  animation-name: test;
+  animation-duration: 2.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  background-color: rgb(76, 175, 80);
+  height: 100%;
+}
+
+@keyframes test {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .progress-bar {
+    width: 25rem;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .progress-bar {
+    width: 15rem;
+  }
+}
