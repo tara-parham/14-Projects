@@ -1,0 +1,21 @@
+$min-width: 20rem;
+$height: 12.5rem;
+$width: 9rem;
+$top: -1rem;
+
+.body {
+  min-width: $min-width;
+}
+
+.header {
+  height: $height;
+}
+
+.profile {
+  width: $width;
+  margin-top: $top;
+}
+
+.h3 {
+  top: $top;
+}
