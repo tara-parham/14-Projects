@@ -1,0 +1,9 @@
+$min-width: 25.25rem;
+$width: 5rem;
+
+body {
+  min-width: $min-width;
+}
+.rounded-circle {
+  width: $width;
+}
