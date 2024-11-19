@@ -1,6 +1,11 @@
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/variables-dark";
+@import "../bootstrap/scss/maps";
+@import "../bootstrap/scss/mixins";
+@import "../bootstrap/scss/utilities";
 $min-width: 23.125rem;
 $width: 2rem;
-$n-margin: -0.3rem;
 
 body {
   min-width: $min-width;
@@ -8,6 +13,7 @@ body {
 img {
   width: $width;
 }
-.navbar-brand span {
-  margin-left: $n-margin;
+
+.btn {
+  background-color: $indigo-700 !important;
 }

@@ -6,6 +6,6 @@ img {
   width: 2rem;
 }
 
-.navbar-brand span {
-  margin-left: -0.3rem;
+.btn {
+  background-color: #3d0a91 !important;
 }/*# sourceMappingURL=style.css.map */
