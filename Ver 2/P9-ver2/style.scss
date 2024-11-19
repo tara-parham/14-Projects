@@ -1,0 +1,8 @@
+$min-width: 12.5rem;
+.custom-tooltip {
+  --bs-tooltip-bg: #d3d3d3;
+  --bs-tooltip-color: #000;
+}
+body {
+  min-width: $min-width;
+}
