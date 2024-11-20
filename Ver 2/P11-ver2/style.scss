@@ -1,0 +1,14 @@
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/variables-dark";
+@import "../bootstrap/scss/maps";
+@import "../bootstrap/scss/mixins";
+@import "../bootstrap/scss/utilities";
+$min-width: 17.563rem;
+
+.btn {
+  background-color: $gray-200;
+}
+body {
+  min-width: $min-width;
+}
