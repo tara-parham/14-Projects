@@ -1,0 +1,11 @@
+body {
+  min-width: 16.125rem;
+}
+
+.main:hover {
+  background-color: #13795b !important;
+}
+
+.main:hover p {
+  visibility: visible !important;
+}/*# sourceMappingURL=style.css.map */
