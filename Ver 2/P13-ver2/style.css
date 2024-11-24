@@ -1,0 +1,29 @@
+.outer {
+  perspective: 32.5rem;
+  width: 20rem;
+}
+
+.inner {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.outer:hover .inner {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back,
+img {
+  backface-visibility: hidden !important;
+  height: 20rem !important;
+}
+
+.back {
+  transform: rotateY(180deg);
+  background-color: #8c68cd;
+}
+
+body {
+  min-width: 23.438rem;
+}/*# sourceMappingURL=style.css.map */

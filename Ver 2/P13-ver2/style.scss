@@ -1,0 +1,37 @@
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/variables-dark";
+@import "../bootstrap/scss/maps";
+@import "../bootstrap/scss/mixins";
+@import "../bootstrap/scss/utilities";
+$prespective: 32.5rem;
+$transition: transform 0.6s;
+$transform-style: preserve-3d;
+$transform: rotateY(180deg);
+$back-visibility: hidden;
+$size: 20rem;
+$min-width: 23.438rem;
+.outer {
+  perspective: $prespective;
+  width: $size;
+}
+.inner {
+  transition: $transition;
+  transform-style: $transform-style;
+}
+.outer:hover .inner {
+  transform: $transform;
+}
+.front,
+.back,
+img {
+  backface-visibility: $back-visibility !important;
+  height: $size !important;
+}
+.back {
+  transform: $transform;
+  background-color: $purple-400;
+}
+body {
+  min-width: $min-width;
+}
