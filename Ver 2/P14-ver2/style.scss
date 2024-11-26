@@ -1,0 +1,25 @@
+$animationName: test;
+$animationDuration: 2.7s;
+$animationIterationCount: infinite;
+$amimtionTimingFunction: ease-in-out;
+$body-height: 100vh;
+$place-content: center;
+@keyframes test {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+.progress-bar {
+  animation-name: $animationName;
+  animation-duration: $animationDuration;
+  animation-iteration-count: $animationIterationCount;
+  animation-timing-function: $amimtionTimingFunction;
+}
+
+body {
+  height: $body-height;
+  place-content: $place-content;
+}

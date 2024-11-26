@@ -1,0 +1,19 @@
+@keyframes test {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+.progress-bar {
+  animation-name: test;
+  animation-duration: 2.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+body {
+  height: 100vh;
+  place-content: center;
+} /*# sourceMappingURL=style.css.map */
