@@ -1,0 +1,28 @@
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/variables-dark";
+@import "../bootstrap/scss/maps";
+@import "../bootstrap/scss/mixins";
+@import "../bootstrap/scss/utilities";
+$height: 100dvh;
+$margin-bottom: 0.125rem;
+$min-width: 20rem;
+main {
+  height: $height;
+}
+.text-danger {
+  background-color: $red-100;
+}
+.text-danger img {
+  margin-bottom: $margin-bottom;
+}
+.first-item {
+  background-color: $gray-200;
+}
+.ho:hover {
+  background-color: $gray-200;
+  width: 100%;
+}
+body {
+  min-width: $min-width;
+}
