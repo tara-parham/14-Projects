@@ -1,23 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 body {
   justify-content: center;
-  align-items: center;
   display: flex;
-  font-family: "Cabin", sans-serif;
-  min-width: 10rem;
-  margin: 0;
+  min-width: 20rem;
 }
 
 main {
   border: 0.1rem solid grey;
   width: 39.9rem;
   padding-bottom: 1rem;
-  margin-top: 2rem;
-}
-
-.icon,
-.text {
-  padding-left: 0.6rem;
+  margin: 2rem 1rem 0 1rem;
 }
 
 .header {
@@ -25,13 +16,15 @@ main {
 }
 
 .header img {
-  font-size: 1.5rem;
   float: right;
 }
 
 .image img {
   width: 39.9rem;
-  height: 22.3rem;
+}
+
+.icon {
+  padding: 0 0.6rem;
 }
 
 .icon img {
@@ -39,25 +32,20 @@ main {
 }
 
 .share {
-  position: relative;
-  top: 0.2rem;
+  margin-bottom: -0.2rem;
 }
 
 .icon-right {
   float: right;
-  margin-right: 0.5rem;
 }
 
 .text {
   margin-top: 0.5rem;
+  padding: 0 0.4rem 0 0.8rem;
 }
 
 .text strong {
   padding-right: 0.3rem;
-}
-
-.text span {
-  font-size: 0.96rem;
 }
 
 @media only screen and (max-width: 648px) {
