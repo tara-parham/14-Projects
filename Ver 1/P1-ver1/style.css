@@ -13,6 +13,7 @@ main {
 
 .header {
   padding: 0.6rem;
+  font-weight: bold;
 }
 
 .header img {
