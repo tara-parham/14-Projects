@@ -1,15 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
-
 body {
   background-color: rgb(244, 244, 245);
-  font-family: "Inter", sans-serif;
   justify-content: center;
-  display: grid;
+  align-content: center;
   place-items: center;
   height: 100dvh;
-  width: 100dvw;
-  min-width: 18rem;
-  margin: 0;
+  min-width: 21.5em;
 }
 
 .content {
@@ -37,30 +32,18 @@ body {
   padding-bottom: 0.5rem;
 }
 
-.text,
-.text p,
-.dot,
-.time,
-.img-upper,
-.bottom span {
-  position: relative;
-}
-
-.text p {
-  display: inline;
-  padding-right: 0.4rem;
-}
-
-.time {
-  right: 0.3em;
-}
-
 .dot {
   display: inline-block;
   background-color: rgb(118, 118, 127);
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 0.5rem;
+  margin-left: 0.3rem;
+}
+
+.text p {
+  display: inline;
+  padding-right: 0.4rem;
 }
 
 .img-under {
@@ -69,9 +52,11 @@ body {
 
 .img-upper {
   left: -0.8rem;
+  position: relative;
 }
 
 .bottom span {
+  position: relative;
   left: -0.4rem;
   top: -0.4rem;
 }
@@ -79,22 +64,5 @@ body {
 @media only screen and (max-width: 417px) {
   .content {
     font-size: 80%;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  .img-under,
-  .img-upper {
-    display: none;
-  }
-
-  .bottom span {
-    left: 1rem;
-    top: 0.4rem;
-  }
-
-  .content {
-    font-size: 90%;
-    padding-right: 2rem;
   }
 }
