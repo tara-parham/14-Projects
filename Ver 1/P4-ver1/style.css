@@ -1,13 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;600;&display=swap");
 body {
   background-color: rgb(246, 246, 246);
-  font-family: "Inter", sans-serif;
   display: grid;
   place-content: center;
-  width: 100dvw;
   height: 100dvh;
-  margin: 0;
-  min-width: 21.375rem;
+  min-width: 25rem;
 }
 
 header h2 {
@@ -18,7 +14,7 @@ header span {
   color: rgb(76, 179, 242);
 }
 
-.form {
+.container {
   display: inline-block;
   border: 0.1rem solid rgb(246, 246, 246);
   background-color: white;
@@ -29,31 +25,28 @@ header span {
 
 input {
   display: block;
-  margin-bottom: 1rem;
-  margin-top: 0.5rem;
+  margin: 0.5rem 0 1rem 0;
+
   padding: 0.5rem 0;
   width: 100%;
   border: 0.1rem solid rgb(220, 220, 224);
   border-radius: 0.4rem;
 }
 
-.extra,
-label {
-  font-size: 0.8rem;
-}
-
-.extra input {
+#checkbox {
   width: 1rem;
   display: inline;
   position: relative;
   top: 0.05rem;
 }
 
-.extra a {
+.forget-password {
   float: right;
-  position: relative;
-  top: 0.68rem;
+
+  margin-top: 0.5rem;
   color: rgb(80, 70, 228);
+
+  text-decoration: none;
 }
 
 .btn {
@@ -98,12 +91,12 @@ label {
   right: 0.71rem;
 }
 
-.icons i {
+.contact i {
   color: rgb(113, 113, 122);
   font-weight: bold;
 }
 
-.icons div {
+.contact div {
   display: inline-block;
   border: 0.1rem solid rgb(220, 220, 224);
   border-radius: 0.5rem;
@@ -111,6 +104,7 @@ label {
   padding: 0.4rem 0.3rem;
   text-align: center;
   margin-bottom: 1.5rem;
+  cursor: pointer;
 }
 
 .footer-title {
@@ -122,34 +116,24 @@ label {
 .footer-title span {
   color: rgb(80, 70, 228);
   font-weight: bold;
+  cursor: pointer;
 }
 
-.footer p {
+.footer-text {
   color: rgb(113, 113, 122);
   font-size: 0.9rem;
 }
-@media only screen and (max-width: 424px) {
-  .form {
+@media only screen and (max-width: 500px) {
+  .container {
     width: 20rem;
-    /* margin-right: 1rem; */
   }
   .line:before,
   .line:after {
     width: 5rem;
   }
 
-  .icons div {
+  .contact div {
     display: block;
     width: 96%;
-  }
-}
-
-@media only screen and (max-width: 469px) {
-  main {
-    width: 100%;
-  }
-
-  .form {
-    padding: 2rem 1rem;
   }
 }
