@@ -113,9 +113,8 @@ input {
   font-size: 1rem;
 }
 
-.footer-title span {
+.footer-title strong {
   color: rgb(80, 70, 228);
-  font-weight: bold;
   cursor: pointer;
 }
 
