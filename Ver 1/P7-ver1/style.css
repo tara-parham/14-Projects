@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: "Inter", sans-serif;
-  min-width: 18.75rem;
+  min-width: 20rem;
 }
 .header {
   margin: 0.5rem;
@@ -35,9 +33,7 @@ body {
   position: relative;
   top: -0.8rem;
 }
-.contact {
-  margin-right: 3rem;
-}
+
 .contact button {
   display: inline-block;
   border: 0.1rem solid rgb(156, 163, 175);
@@ -45,29 +41,16 @@ body {
   color: rgb(156, 163, 175);
   cursor: pointer;
   border-radius: 0.4rem;
-}
-.message,
-.call {
   padding: 0.5rem 1.2rem;
-  margin-right: 1rem;
 }
-.message span,
-.call span {
+
+button span {
   position: relative;
   margin-left: 0.3rem;
   top: -0.25rem;
 }
-.contact button svg {
-  width: 1.5rem;
-  border: none;
-  padding-left: 0.2rem;
-}
-@media only screen and (max-width: 950px) {
-  .contact {
-    margin-right: 0;
-  }
-}
-@media only screen and (max-width: 750px) {
+
+@media only screen and (max-width: 640px) {
   .profile h1 {
     display: block;
   }
