@@ -1,23 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
 body {
-  font-family: "Inter", sans-serif;
-  align-content: center;
-  justify-content: center;
   display: grid;
   place-items: center;
-  width: 100dvw;
   height: 100dvh;
-  margin: 0;
-  min-width: 16.688rem;
+  min-width: 20rem;
 }
 
 main {
   text-align: center;
-  position: relative;
 }
 
 .tooltip {
-  position: inherit;
+  position: relative;
   display: inline-block;
   border: 0.1rem solid black;
   text-align: center;
@@ -34,7 +27,7 @@ main {
   background-color: rgb(211, 211, 211);
   width: 12rem;
   padding: 0.3rem 0.2rem;
-  top: 140%;
+  top: 125%;
   left: 20%;
 }
 
@@ -57,7 +50,6 @@ main {
 @media only screen and (max-width: 353px) {
   .tooltip-text {
     left: -20%;
-    margin-right: 6rem;
   }
 
   .tooltip-text:after {
