@@ -1,38 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 body {
-  font-family: "Inter", sans-serif;
-  text-align: center;
-  width: 100dvw;
-  position: relative;
+  min-width: 20rem;
 }
 main {
-  min-width: 62.25rem;
   margin: 2rem;
 }
 .header {
   margin-top: 3rem;
+  text-align: center;
 }
 .header p {
   color: rgb(107, 116, 128);
-  font-size: 1.3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .blog {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .card {
-  display: inline-block;
   width: 100%;
   border: 0.1rem solid transparent;
   border-radius: 1rem;
-  text-align: left;
   margin: 0 0.5rem;
+  color: rgb(103, 110, 123);
   box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
     0 0.37rem 1.25rem 0 rgba(0, 0, 0, 0.19);
 }
@@ -48,6 +41,11 @@ main {
   position: relative;
   height: 19rem;
 }
+
+h3 {
+  color: black;
+}
+
 .title {
   color: rgb(79, 70, 229);
   margin: 1rem 0;
@@ -64,7 +62,7 @@ main {
 .footer img {
   width: 3rem;
   border-radius: 50%;
-  padding: 1rem 0.5rem;
+  padding: 1rem 0.5rem 1rem 0;
 }
 .footer h3 {
   margin: 1rem 0 0.5rem 0;
@@ -84,21 +82,17 @@ main {
 @media only screen and (max-width: 1051px) {
   main {
     margin: 0;
+    font-size: 88%;
   }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 767px) {
   .blog {
     flex-direction: column;
   }
   main {
     margin: 1rem;
-    min-width: 17rem;
   }
   .card {
     margin: 1rem 0;
-  }
-  .header p,
-  .header h1 {
-    font-size: 100%;
   }
 }
