@@ -1,15 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 body {
   display: grid;
-  width: 100dvw;
   height: 100dvh;
   place-content: center;
-  margin: 0;
-  font-family: "Inter", sans-serif;
-  min-width: 21.25rem;
+  min-width: 20.5rem;
 }
 
-.main {
+main {
   width: 20rem;
   height: 20rem;
   perspective: 32.5rem;
@@ -22,7 +18,7 @@ body {
   height: 100%;
 }
 
-.main:hover .inner {
+main:hover .inner {
   transform: rotateY(180deg);
 }
 
@@ -38,7 +34,6 @@ body {
 .back {
   position: absolute;
   backface-visibility: hidden;
-  height: 100%;
 }
 
 .back {
@@ -46,7 +41,6 @@ body {
   background-color: rgb(144, 108, 170);
   color: white;
   text-align: center;
-  font-size: 0.75rem;
   padding: 5px 10px;
-  font-weight: bold;
+  height: 100%;
 }
