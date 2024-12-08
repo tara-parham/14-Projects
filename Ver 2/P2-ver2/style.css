@@ -1,12 +1,13 @@
 body {
-  background-color: rgb(244, 244, 245);
-  min-width: 27rem;
-}
-
-.left img {
-  width: 3rem;
+  min-width: 20rem;
+  place-content: center;
 }
 
 .img2 {
   margin-left: -0.75rem;
+}
+
+.dot {
+  width: 0.6rem;
+  height: 0.6rem;
 }/*# sourceMappingURL=style.css.map */
