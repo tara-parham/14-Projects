@@ -1,11 +1,7 @@
 body {
-  min-width: 23.125rem;
+  min-width: 25rem;
 }
 
-img {
-  width: 2rem;
-}
-
-.btn {
-  background-color: #3d0a91 !important;
+.logo {
+  margin-left: -0.4rem;
 }/*# sourceMappingURL=style.css.map */
