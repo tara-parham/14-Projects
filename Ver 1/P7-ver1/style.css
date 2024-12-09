@@ -3,12 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   min-width: 20rem;
 }
+
 .header {
   margin: 0.5rem;
 }
+
 .header img {
   width: 100%;
   object-fit: cover;
@@ -16,6 +19,7 @@ body {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
+
 .info {
   display: flex;
   justify-content: space-around;
