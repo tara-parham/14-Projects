@@ -1,6 +1,7 @@
 body {
   display: grid;
   height: 100dvh;
+  margin: 0;
   place-content: center;
   min-width: 20.5rem;
 }
