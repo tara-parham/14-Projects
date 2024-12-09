@@ -3,7 +3,8 @@ body {
   justify-content: center;
   align-content: center;
   place-items: center;
-  height: 95dvh;
+  height: 100dvh;
+  margin: 0;
   min-width: 21.5em;
 }
 
