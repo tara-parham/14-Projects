@@ -55,7 +55,7 @@ input {
   cursor: pointer;
 }
 
-.btn i {
+.fa-lock {
   width: 1rem;
   float: left;
   opacity: 20%;
