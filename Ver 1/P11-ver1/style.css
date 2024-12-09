@@ -2,6 +2,7 @@ body {
   display: grid;
   place-content: center;
   height: 100dvh;
+  margin: 0;
   min-width: 20rem;
 }
 main {
