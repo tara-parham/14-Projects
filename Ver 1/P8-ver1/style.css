@@ -8,11 +8,11 @@ body {
 main {
   margin: 2rem;
 }
-.header {
+header {
   margin-top: 3rem;
   text-align: center;
 }
-.header p {
+header p {
   color: rgb(107, 116, 128);
   margin-bottom: 2rem;
 }
