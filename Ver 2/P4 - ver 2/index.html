@@ -22,28 +22,34 @@
         <p class="fw-bold text-center h4 my-5">
           Sign in to <span class="text-info">codedamn</span>
         </p>
-        <div class="col-0 col-md-1 col-lg-2 col-xl-3 col-xxl-3"></div>
+        <div class="col-0 col-md-1 col-lg-2 col-xl-3"></div>
         <form
           action="#"
-          class="bg-white rounded p-5 col-md-10 col-lg-8 col-xl-6 col-xxl-6"
+          class="bg-white rounded p-5 col-md-10 col-lg-8 col-xl-6"
         >
           <label for="email" class="form-label">Email Address / Username</label>
           <input type="email" class="form-control" name="email" /><br />
           <label for="password" class="form-label">Password</label>
           <input type="password" class="form-control" name="password" />
-          <div class="remember d-flex justify-content-between my-3">
+          <div class="d-flex justify-content-between my-3">
             <div class="form-check">
               <input type="checkbox" class="form-check-input" name="checkbox" />
-              <label for="checkbox" class="form-check-label">Remember me</label>
+              <label for="checkbox" class="form-check-label small"
+                >Remember me</label
+              >
             </div>
-            <a href="#" class="text-decoration-none">Forget Your Password?</a>
+            <a href="#" class="text-decoration-none small mt-1"
+              >Forget Your Password?</a
+            >
           </div>
           <button type="button" class="btn btn-primary text-white w-100 my-1">
             <i class="fa fa-lock text-light float-start mt-1"></i> Sign in
           </button>
           <div class="d-flex justify-content-evenly mt-4 mx-1">
             <div class="col h-25 border border-secondary-subtle mt-3"></div>
-            <p class="col text-center text-secondary mt-1">Or continue with</p>
+            <p class="col text-center text-secondary mt-1 small px-2">
+              Or continue with
+            </p>
             <div class="col h-25 border border-secondary-subtle mt-3"></div>
           </div>
           <div class="text-center mt-4 d-sm-flex">
@@ -53,18 +59,18 @@
             <button class="btn btn-secondary bg-white rounded m-1 w-100">
               <i class="fa fa-github fw-bold text-secondary"></i>
             </button>
+          </div>
           <p class="text-center mt-4">
             Don't have an account?
             <a href="#" class="text-primary text-decoration-none fw-bold"
               >Create Account</a
             >
           </p>
-          <span class="text-secondary"
-            >This site is protected by reCAPTCHA and Google Privacy Policy and
-            Terms of Service apply.</span
-          >
+          <p class="text-secondary px-4 small">
+            This site is protected by reCAPTCHA and Google Privacy Policy and
+            Terms of Service apply.
+          </p>
         </form>
-        <div class="col-0 col-md-1 col-lg-2 col-xl-3 col-xxl-3"></div>
       </div>
     </main>
   </body>
