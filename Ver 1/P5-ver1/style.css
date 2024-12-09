@@ -5,7 +5,8 @@ body {
   display: grid;
   place-content: center;
   height: 100dvh;
-  min-width: 20rem;
+  min-width: 21.875rem;
+  margin: 0;
 }
 
 main {
