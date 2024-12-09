@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-content: center;
   place-items: center;
-  height: 100dvh;
+  height: 95dvh;
   min-width: 21.5em;
 }
 
@@ -38,7 +38,7 @@ body {
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 0.5rem;
-  margin-left: 0.3rem;
+  margin: 0 0.1rem;
 }
 
 .text p {
