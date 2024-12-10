@@ -1,17 +1,5 @@
-main {
-  height: 100dvh;
-}
-
-.text-danger {
-  background-color: #f8d7da;
-}
-
 .text-danger img {
   margin-bottom: 0.125rem;
-}
-
-.first-item {
-  background-color: #e9ecef;
 }
 
 .ho:hover {
