@@ -1,4 +1,16 @@
-$min-width: 30rem;
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/variables-dark";
+@import "../bootstrap/scss/maps";
+@import "../bootstrap/scss/mixins";
+@import "../bootstrap/scss/utilities";
+$min-width: 20rem;
+$center: center;
 body {
   min-width: $min-width;
+  place-content: $center;
+}
+
+.right {
+  background-color: $gray-200;
 }
