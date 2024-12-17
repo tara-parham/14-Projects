@@ -1,9 +1,5 @@
-body {
-  min-width: 16.125rem;
-}
-
 .main:hover {
-  background-color: #13795b !important;
+  background-color: #1aa179 !important;
 }
 
 .main:hover p {

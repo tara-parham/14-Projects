@@ -4,13 +4,9 @@
 @import "../bootstrap/scss/maps";
 @import "../bootstrap/scss/mixins";
 @import "../bootstrap/scss/utilities";
-$min-width: 16.125rem;
 
-body {
-  min-width: $min-width;
-}
 .main:hover {
-  background-color: $teal-700 !important;
+  background-color: $teal-600 !important;
 }
 .main:hover p {
   visibility: visible !important;
