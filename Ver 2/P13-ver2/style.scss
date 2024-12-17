@@ -10,7 +10,7 @@ $transform-style: preserve-3d;
 $transform: rotateY(180deg);
 $back-visibility: hidden;
 $size: 20rem;
-$min-width: 23.438rem;
+$min-width: 21.625rem;
 .outer {
   perspective: $prespective;
   width: $size;
@@ -30,7 +30,6 @@ img {
 }
 .back {
   transform: $transform;
-  background-color: $purple-400;
 }
 body {
   min-width: $min-width;

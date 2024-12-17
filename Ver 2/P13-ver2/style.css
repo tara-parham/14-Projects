@@ -21,9 +21,8 @@ img {
 
 .back {
   transform: rotateY(180deg);
-  background-color: #8c68cd;
 }
 
 body {
-  min-width: 23.438rem;
+  min-width: 21.625rem;
 }/*# sourceMappingURL=style.css.map */
