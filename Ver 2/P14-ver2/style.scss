@@ -2,7 +2,6 @@ $animationName: test;
 $animationDuration: 2.7s;
 $animationIterationCount: infinite;
 $amimtionTimingFunction: ease-in-out;
-$body-height: 100vh;
 $place-content: center;
 @keyframes test {
   from {
@@ -20,6 +19,5 @@ $place-content: center;
 }
 
 body {
-  height: $body-height;
   place-content: $place-content;
 }
