@@ -3,6 +3,8 @@
   --bg-body: rgb(234, 244, 254);
   --bs-color: rgb(111, 44, 244);
   --sass-color: rgb(206, 25, 251);
+  --black: black;
+  --white: white;
 }
 
 * {
@@ -27,13 +29,13 @@ header {
 }
 
 .header-bottom {
-  background-color: black;
-  color: white;
+  background-color: var(--black);
+  color: var(--white);
   padding: 0.5rem 0;
 }
 
 img {
-  border: 0.2rem solid white;
+  border: 0.2rem solid var(--white);
   border-radius: 1rem;
 }
 
@@ -54,11 +56,10 @@ ul li {
 
 li a {
   text-decoration: none;
-  border: 0.1rem solid var(--sass-color);
+  border: 0.2rem dashed var(--sass-color);
   padding: 1rem 0.5rem;
-  border-radius: 1rem;
-  background-color: var(--bs-color);
-  color: var(--sass-color);
+  border-radius: 0.5rem;
+  color: var(--bs-color);
   width: 14rem;
   text-align: center;
   display: inline-block;
@@ -68,7 +69,7 @@ li a {
 li a:hover {
   background-color: var(--sass-color);
   color: var(--bs-color);
-  border: 0.1rem solid var(--bs-color);
+  border: 0.2rem solid var(--bs-color);
 }
 
 @media only screen and (max-width: 548px) {
