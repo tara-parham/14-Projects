@@ -1,35 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa-IR" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/normalize.css" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="icon" href="Ver 1/Assets/favicon.ico" />
-    <title>Main Page</title>
+    <title>Projects</title>
   </head>
-  <body>
-    <header>
-      <div class="header-top">
-        <img src="Ver 1/Assets/Logo.jpg" alt="logo" />
+  <body class="m-0 p-0">
+    <div
+      class="container-fluid m-0 p-0 vh-100 d-flex flex-column justify-content-between"
+    >
+      <div>
+        <header>
+          <div class="header-top text-center">
+            <img src="Ver 1/Assets/Logo.jpg" alt="logo" class="p-2" />
+          </div>
+          <div
+            class="text-center header-bottom d-flex flex-sm-row flex-column justify-content-around bg-black p-2"
+          >
+            <a href="Main Site/index.html">
+              <button
+                type="button"
+                class="btn text-white border fw-bold px-4 my-2"
+              >
+                صفحه اصلی
+              </button>
+            </a>
+            <a href="index.html">
+              <button
+                type="button"
+                class="btn text-white border fw-bold px-4 my-2"
+              >
+                مشاهده پروژه‌ها
+              </button>
+            </a>
+            <a href="Ver 1/Assets/Resume.pdf">
+              <button
+                type="button"
+                class="btn text-white border fw-bold px-4 my-2"
+              >
+                مشاهده رزومه
+              </button>
+            </a>
+          </div>
+        </header>
+
+        <div
+          class="d-flex flex-sm-row flex-column justify-content-evenly mt-5 text-center"
+        >
+          <div class="my-5">
+            <h4 class="mb-3">Using</h4>
+            <a
+              href="Ver 1/index.html"
+              class="text-decoration-none d-inline-block"
+            >
+              <img src="Ver 1/Assets/CSS.svg" alt="CSS" class="css" />
+              <img src="Ver 1/Assets/HTML.svg" alt="HTML" class="html" />
+            </a>
+          </div>
+          <br />
+          <div class="my-5">
+            <h4 class="mb-3">Using</h4>
+            <a
+              href="Ver 2/index.html"
+              class="text-decoration-none d-inline-block"
+            >
+              <img src="Ver 2/Assets/Sass.svg" alt="Sass" class="sass" />
+              <img
+                src="Ver 2/Assets/Bootstrap.svg"
+                alt="Bootstrap"
+                class="bs"
+              />
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="header-bottom">Menu</div>
-    </header>
-    <br /><br /><br />
-    <div class="container">
-      <div class="logo">
-        <h4>Using</h4>
-        <a href="Ver 1/index.html">
-          <img src="Ver 1/Assets/HTML.svg" alt="HTML" class="html" />
-          <img src="Ver 1/Assets/CSS.svg" alt="CSS" class="css" />
-        </a>
-      </div>
-      <div class="logo">
-        <h4>Using</h4>
-        <a href="Ver 2/index.html">
-          <img src="Ver 2/Assets/Bootstrap.svg" alt="Bootstrap" class="bs" />
-          <img src="Ver 2/Assets/Sass.svg" alt="Sass" class="sass" />
-        </a>
+      <br /><br /><br />
+
+      <div>
+        <footer class="w-100 p-2 mt-5">
+          <p class="text-white text-center m-0">
+            آدرس ایمیل: taraparhamrad@gmail.com
+          </p>
+        </footer>
       </div>
     </div>
+    <!-- <header>
+      <div class="header-top text-center">
+        <img src="Ver 1/Assets/Logo.jpg" alt="logo" class="p-2" />
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="d-flex justify-content-around mt-5 text-center">
+        <div>
+          <h4 class="mb-3">Using</h4>
+          <a
+            href="Ver 2/index.html"
+            class="text-decoration-none d-inline-block"
+          >
+            <img src="Ver 2/Assets/Sass.svg" alt="Sass" class="sass" />
+            <img src="Ver 2/Assets/Bootstrap.svg" alt="Bootstrap" class="bs" />
+          </a>
+        </div>
+        <div>
+          <h4 class="mb-3">Using</h4>
+          <a
+            href="Ver 1/index.html"
+            class="text-decoration-none d-inline-block"
+          >
+            <img src="Ver 1/Assets/CSS.svg" alt="CSS" class="css" />
+            <img src="Ver 1/Assets/HTML.svg" alt="HTML" class="html" />
+          </a>
+        </div>
+      </div>
+      <footer class="w-100 p-2">
+        <p class="text-white text-center m-0">
+          آدرس ایمیل: taraparhamrad@gmail.com
+        </p>
+      </footer>
+    </div> -->
   </body>
 </html>
