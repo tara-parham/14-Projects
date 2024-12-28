@@ -1,92 +1,28 @@
-:root {
-  --main-color: rgb(0, 12, 36);
-  --bg-body: rgb(234, 244, 254);
-  --html-color: rgb(233, 98, 40);
-  --css-color: rgb(102, 51, 153);
-  --black: black;
-  --white: white;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
 body {
-  font-family: "Inter", sans-serif;
-  background-color: var(--bg-body);
-}
-
-header {
-  text-align: center;
-}
-
-.header-top img {
-  margin: 1rem;
+  background-color: rgb(234, 244, 254) !important;
+  min-width: 21.5rem;
 }
 
 .header-top {
-  background-color: var(--main-color);
-}
-
-.header-bottom {
-  background-color: var(--black);
-  color: var(--white);
-  padding: 0.5rem 0;
-}
-
-img {
-  border: 0.2rem solid var(--white);
-  border-radius: 1rem;
-}
-
-.main {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-ul li {
-  margin: 1.5rem 1rem;
+  background-color: rgb(0, 12, 36);
 }
 
 li a {
-  text-decoration: none;
-  border: 0.2rem dashed var(--css-color);
-  padding: 1rem 0.5rem;
-  border-radius: 0.5rem;
-  color: var(--html-color);
-  width: 14rem;
-  text-align: center;
-  display: inline-block;
-  font-weight: bold;
+  border: 0.2rem dashed rgb(102, 51, 153);
+  color: rgb(233, 98, 40);
 }
 
 li a:hover {
-  background-color: var(--css-color);
-  color: var(--html-color);
-  border: 0.2rem solid var(--html-color);
+  background-color: rgb(102, 51, 153);
+  color: rgb(233, 98, 40);
+  border: 0.2rem solid rgb(233, 98, 40);
 }
 
-@media only screen and (max-width: 548px) {
-  header {
-    width: 548px;
-  }
-
-  .main {
-    flex-direction: column;
-  }
-
-  .main-right {
-    margin-top: -1.5rem;
-  }
-
-  li a {
-    width: 25rem;
-    margin: 0.1rem 3rem;
-  }
+footer {
+  background-color: rgb(0, 12, 36);
 }
+
+.btn:hover {
+  background-color: rgb(234, 244, 254);
+  color: rgb(0, 12, 36) !important;
+}/*# sourceMappingURL=style.css.map */

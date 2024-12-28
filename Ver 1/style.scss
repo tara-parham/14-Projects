@@ -1,0 +1,37 @@
+$main-color: rgb(0, 12, 36);
+$bg-body: rgb(234, 244, 254);
+$html-color: rgb(233, 98, 40);
+$css-color: rgb(102, 51, 153);
+$border-width: 0.2rem;
+$border-style-dashed: dashed;
+$border-style-solid: solid;
+$min-width: 21.5rem;
+
+body {
+  background-color: $bg-body !important;
+  min-width: $min-width;
+}
+
+.header-top {
+  background-color: $main-color;
+}
+
+li a {
+  border: $border-width $border-style-dashed $css-color;
+  color: $html-color;
+}
+
+li a:hover {
+  background-color: $css-color;
+  color: $html-color;
+  border: $border-width $border-style-solid $html-color;
+}
+
+footer {
+  background-color: $main-color;
+}
+
+.btn:hover {
+  background-color: $bg-body;
+  color: $main-color !important;
+}
