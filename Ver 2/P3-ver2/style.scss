@@ -1,0 +1,9 @@
+$min-width: 25rem;
+$n-margin: -0.4rem;
+
+body {
+  min-width: $min-width;
+}
+.logo {
+  margin-left: $n-margin;
+}
